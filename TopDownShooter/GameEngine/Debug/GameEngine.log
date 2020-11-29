@@ -1,1 +1,35 @@
-﻿  GameEngine.vcxproj -> C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\Debug\GameEngine.lib
+﻿  GameObject.cpp
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Vector.h(141,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(189,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,38): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  ParticleAffector.cpp
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Vector.h(141,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(189,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,38): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  ParticleObject.cpp
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Vector.h(141,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(189,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,38): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  ParticleSystem.cpp
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Vector.h(141,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(189,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,38): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\ParticleSystem.cpp(93,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\ParticleSystem.cpp(93,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\ParticleSystem.cpp(85,8): warning C4101: 'RandLifetime': unreferenced local variable
+  Generating Code...
+glu32.lib(GLU32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+Photon-cpp_vc14_debug_windows_md_Win32.lib(bcrypt.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+Photon-cpp_vc14_debug_windows_md_Win32.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+Photon-cpp_vc14_debug_windows_md_Win32.lib(urlmon.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+Photon-cpp_vc14_debug_windows_md_Win32.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+Photon-cpp_vc14_debug_windows_md_Win32.lib(WININET.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  GameEngine.vcxproj -> C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\Debug\GameEngine.lib

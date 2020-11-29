@@ -18,7 +18,9 @@ protected:
 
 	//! Returns a random float based on the given parameters
 	float RandomFloat(float MinRandomValue, float MaxRandomValue)
-	{ return ((float)rand() / RAND_MAX) * (MaxRandomValue - MinRandomValue) + MinRandomValue; }
+	{
+		return ((float)rand() / RAND_MAX) * (MaxRandomValue - MinRandomValue) + MinRandomValue;
+	}
 
 public:
 	//! Initialises a GameObject instance with default values
@@ -26,6 +28,7 @@ public:
 	//! Initialises a GameObject instance that takes in a Sprite pointer
 	GameObject(Sprite* DesiredSprite);
 	~GameObject();
+
 	//! Returns a Vector2 of the GameObject's position
 	Vector2 GetPosition() { return ObjectPosition; }
 	//! Returns a float of the GameObject's rotation in degrees
@@ -36,16 +39,25 @@ public:
 	Sprite* GetSprite() { return ObjectSprite; }
 	//! Returns a Color of the GameObject's Color
 	Color GetColor() { return ObjectColor; }
+
 	//! Takes in a Vector2 reference and sets the GameObject's position
 	void SetPosition(const Vector2& DesiredPosition);
+	void SetPosition(float DesiredPositionX, float DesiredPositionY);
+
 	//! Takes in a float and sets the GameObject's rotation in degrees
 	void SetRotation(float DesiredRotation);
+
 	//! Takes in a Vector2 reference and sets the GameObject's size
 	void SetScale(const Vector2& DesiredScale);
+	void SetScale(float DesiredScaleX, float DesiredScaleY);
+
 	//! Takes in a Sprite pointer and sets the GameObject's Sprite
 	void SetSprite(Sprite* DesiredSprite) { ObjectSprite = DesiredSprite; }
+
 	//! Takes in a Color reference and sets the GameObject's Color
 	void SetColor(const Color& DesiredColor) { ObjectColor = DesiredColor; }
+	void SetColor(float R, float G, float B, float A);
+
 	//! Takes in a BlendMode enum and sets the GameObject's BlendMode
 	void SetBlendMode(BlendMode DesiredBlendMode) { ObjectBlendMode = DesiredBlendMode; }
 

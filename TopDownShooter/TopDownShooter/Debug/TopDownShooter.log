@@ -1,7 +1,8 @@
-﻿  main.cpp
-D:\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
-C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\SDK\glfw-3.3.2.bin.WIN32\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
-C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Application.h(29,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Application.h(29,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  Bullet.cpp
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Vector.h(141,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(189,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Matrix.h(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\GameEngine\Sprite.h(35,38): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   TopDownShooter.vcxproj -> C:\Users\fyr3f\Desktop\DataCom\Top-Down Shooter\TopDownShooter\Debug\TopDownShooter.exe

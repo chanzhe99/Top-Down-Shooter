@@ -44,6 +44,12 @@ void GameObject::SetPosition(const Vector2& DesiredPosition)
 	TranslateMatrix = Matrix::makeTranslationMatrix(ObjectPosition.X, ObjectPosition.Y, 0.f);
 }
 
+void GameObject::SetPosition(float DesiredPositionX, float DesiredPositionY)
+{
+	ObjectPosition = Vector2(DesiredPositionX, DesiredPositionY);
+	TranslateMatrix = Matrix::makeTranslationMatrix(ObjectPosition.X, ObjectPosition.Y, 0.f);
+}
+
 void GameObject::SetRotation(float DesiredRotation)
 {
 	ObjectRotation = DesiredRotation;
@@ -54,6 +60,20 @@ void GameObject::SetScale(const Vector2& DesiredScale)
 {
 	ObjectScale = DesiredScale;
 	ScaleMatrix = Matrix::makeScaleMatrix(ObjectScale.X, ObjectScale.Y, 0.f);
+}
+
+void GameObject::SetScale(float DesiredScaleX, float DesiredScaleY)
+{
+	ObjectScale = Vector2(DesiredScaleX, DesiredScaleY);
+	ScaleMatrix = Matrix::makeScaleMatrix(ObjectScale.X, ObjectScale.Y, 0.f);
+}
+
+void GameObject::SetColor(float R, float G, float B, float A)
+{
+	ObjectColor.R = R;
+	ObjectColor.G = G;
+	ObjectColor.B = B;
+	ObjectColor.A = A;
 }
 
 Vector2 GameObject::GetWorldScale()
@@ -89,6 +109,6 @@ void GameObject::Draw()
 {
 	TransformMatrix = TranslateMatrix * RotateMatrix * ScaleMatrix;
 	glLoadMatrixf((GLfloat*)TransformMatrix.mVal);
-	
+
 	ObjectSprite->Draw(ObjectColor, ObjectBlendMode);
 }
